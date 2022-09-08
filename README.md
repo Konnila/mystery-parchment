@@ -4,6 +4,8 @@ A coding challenge. If you know you know :).
 
 Huge shout-out to @mikera and his https://github.com/mikera/imagez image processing library. Never used it before, but seemed to work very well :).
 
+All code can be found in core.clj file under src folder.
+
 ## pre-requisites
 Java, personally ran this with java 9. Should work with 8+ (not tested).
 
