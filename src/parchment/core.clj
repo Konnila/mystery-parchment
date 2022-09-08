@@ -35,7 +35,7 @@
   (let [alphabet (map char "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
         shifted-alphabet (->> (cycle alphabet) (take 52) (drop shifts-to-right) (map char))
         relation-zipmap (zipmap alphabet shifted-alphabet)] ;map the original alphabets to our new shifted alphabet for easy lookup with a key-value map
-          (apply str (map #(relation-zipmap %) message)))) ;map every char to the corresponding value present in relation-zipmap and turn the whole deciphered vector into a string
+          (apply str (map relation-zipmap message)))) ;map every char to the corresponding value present in relation-zipmap and turn the whole deciphered vector into a string
 
 (defn -main
   "Solves mysteries with ease!"
