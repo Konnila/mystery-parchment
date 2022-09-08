@@ -21,7 +21,9 @@ If you have clojure + leiningen installed, in root folder you can also do
 
     $ lein run
 
-There should pop-up the image with the correct spell, and from console/terminal you can see it deciphered.
+An image with the correct spell should pop up, and from console/terminal you can see it deciphered.
+
+It takes around 7 seconds to manipulate the image on my subpar computer.
 
 ## License
 
