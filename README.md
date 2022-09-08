@@ -1,4 +1,4 @@
-# parchment
+# Parchment
 
 A coding challenge. If you know you know :).
 
@@ -6,7 +6,7 @@ Huge shout-out to @mikera and his https://github.com/mikera/imagez image process
 
 All code can be found in core.clj file under src folder.
 
-## pre-requisites
+## Pre-Requisites
 Java, personally ran this with java 9. Should work with 8+ (not tested).
 
 If running with lein, clojure 1.4 or above required for imagez library.
