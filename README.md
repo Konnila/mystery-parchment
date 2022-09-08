@@ -15,7 +15,7 @@ In project root, with just java installed you can run this uberjar with
 
     $ java -jar parchment-0.1.0-standalone.jar
 
-If you have clojure + leininger installed, in root folder you can also do
+If you have clojure + leiningen installed, in root folder you can also do
 
     $ lein run
 
