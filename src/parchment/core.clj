@@ -46,6 +46,6 @@
       ;There was one another color very close, but I picked this one since it was the non-prevalent one of the two.
       (replace-pixels-for-color mysterious-file-buffer -199194)
       (show mysterious-file-buffer)
-      ;; now we can see the mysterious message, let's magically decipher with 21 shifts to right. Not like I tested this to be the right one or anything.
+      ;; now we can see the mysterious message, let's magically decipher with 5 shifts to right. Not like I tested this to be the right one or anything.
       (println (decrypt-caesar-message secret-message 5))))
 
