@@ -32,7 +32,7 @@
 (defn decrypt-caesar-message 
   "assumes shifts-to-right to be between 0 and 25." 
   [message shifts-to-right]
-  (let [alphabet (map char "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+  (let [alphabet "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         shifted-alphabet (->> (cycle alphabet) (take 52) (drop shifts-to-right))
         relation-zipmap (zipmap alphabet shifted-alphabet)] ;map the original alphabets to our new shifted alphabet for easy lookup with a key-value map
           (apply str (map relation-zipmap message)))) ;map every char to the corresponding value present in relation-zipmap and turn the whole deciphered vector into a string
