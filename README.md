@@ -28,5 +28,3 @@ It takes around 7 seconds to manipulate the image on my subpar computer.
 ## License
 
 Copyright © 2022 Toni Könnilä
-
-Use as you will, within MIT licence
