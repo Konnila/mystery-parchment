@@ -15,7 +15,7 @@ If running with lein, clojure 1.4 or above required for imagez library.
 
 In project root, with just java installed you can run this uberjar with
 
-    $ java -jar parchment-0.1.0-standalone.jar
+    $ java -jar parchment-0.1.0-SNAPSHOT-standalone.jar
 
 If you have clojure + leiningen installed, in root folder you can also do
 
