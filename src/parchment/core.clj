@@ -42,6 +42,7 @@
   [& args]
     (let [mysterious-file-buffer (get-resource "parchment.png")]
       ;Note: -199194 hardcoded primitive int that I found out by manual testing the rgb colors of the pixels in this file.
+      ;The -199194 is unsigned 32int representation of 0xFFFCF5E6 which maps to rgb values of R:252, G:245, B:230.
       ;There was one another color very close, but I picked this one since it was the non-prevalent one of the two.
       (replace-pixels-for-color mysterious-file-buffer -199194)
       (show mysterious-file-buffer)
